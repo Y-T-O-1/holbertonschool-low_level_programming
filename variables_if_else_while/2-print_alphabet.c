@@ -18,5 +18,5 @@ int main(void)yy
 
 	putchar('\n');
 
-	return (0);
+	return 0;
 }
