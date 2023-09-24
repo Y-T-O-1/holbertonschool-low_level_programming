@@ -6,13 +6,24 @@
 * Return: Always 0 (Success)
 */
 
-int main(void)
+int main(void) 
 {
-	char low;
+    char lowercase = 'a';
+    char uppercase = 'A';
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
+    while (lowercase <= 'z')
+{
+        putchar(lowercase);
+        lowercase++;
+    }
 
-	return (0);
+    while (uppercase <= 'Z')
+{
+        putchar(uppercase);
+        uppercase++;
+    }
+
+    putchar('\n');
+
+    return (0);
 }
