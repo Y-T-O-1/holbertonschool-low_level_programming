@@ -12,14 +12,13 @@
 
 int _islower(int c)
 {
-	char i;
-	int lower = 0;
-
-	for 9i = 'a'; i <= 'z'; i++)
+	if (c >= 'a' && c <= 'z')
 	{
-		if (i == c)
-			lower = 1;
+		return 1; // Character is lowercase
 	}
 
-	return (lower);
+	else
+	{
+		return 0; // Character is not lowercase
+	}
 }
