@@ -3,7 +3,7 @@
 /**
 * print_alphabet - Check description
 *
-* Description: Prints the lowercase alphabet 10x, followed by a new line
+* Description: Prints the lowercase alphabet ten times, followed by a new line.
 *
 * Return: Nothing.
 */
