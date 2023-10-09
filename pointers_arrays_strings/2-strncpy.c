@@ -8,10 +8,12 @@
  * Return: A pointer to the resulting string
  */
 char *_strncpy(char *dest, char *src, int n)
+{
 if (n <= 0 || src == NULL)
 {
 	*dest = '\0';
 	return dest;
+	}
 }
 {
 	int srclen = 0, i = 0;
